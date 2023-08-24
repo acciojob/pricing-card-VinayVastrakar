@@ -2,11 +2,20 @@
 .card{
 	width:350px;
 	text-align:center;
-	background-color:gray;
-	align:center;
-	
+	background-color:white;
+	padding:10px;
+	border-radius:10px;
+	box-shadow:0 4px 10px rgba(0, 0, 0, 0.3);
 }
-p,button{
+button{
+	font-size:32px;
+	border-radius:10px;
+	background-color:blue;
+}
+button:hover{
+	background-color:green;
+}
+p{
 	font-size:32px;
 }
 h1{
